@@ -7,9 +7,9 @@ permalink: /certifications/
 <div class="space-y-8">
     <div class="text-center space-y-4">
         <h1 class="text-4xl font-bold text-gray-800 flex items-center justify-center gap-3">
-            Professional Certifications
+            My Professional Certifications
         </h1>
-        <p class="text-gray-600">Validated expertise in both Red & Blue Teaming</p>
+        <p class="text-gray-600">Validated expertise in both Blue & Purple Teaming</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6">
@@ -18,7 +18,7 @@ permalink: /certifications/
             <div class="flex gap-4">
                 <div class="flex-shrink-0">
                     <a href="{{ cert.url }}" target="_blank" rel="noopener noreferrer" class="block">
-                        <img src="{{ cert.badge }}" alt="{{ cert.name }}" class="w-24 h-24 object-contain rounded-lg group-hover:scale-105 transition-transform">
+                        <img src="{{ cert.badge | relative_url }}" alt="{{ cert.name }}" class="w-24 h-24 object-contain rounded-lg group-hover:scale-105 transition-transform">
                     </a>
                 </div>
                 

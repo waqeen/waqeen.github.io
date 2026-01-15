@@ -12,4 +12,9 @@
   badge: "https://templates.images.credential.net/16917717378236750728712191243482.png"
   url: "https://certs.ine.com/cbc50094-16e1-4e7b-89fb-fdb5108327d8#acc.Y5e4Ijiv"
 
-# Добавь сюда остальные сертификаты по аналогии
+- name: "MLSecOps basics. Securing machine learning systems"
+  issuer: "Softline"
+  year: "2025"
+  status: "Active"
+  badge: "/assets/images/badges/mlsecops.png"
+  url: ""  
