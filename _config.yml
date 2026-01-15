@@ -1,0 +1,39 @@
+# Site configuration
+title: Waqeen
+description: Personal website with certifications and writeups
+url: https://waqeen.github.io
+author: Waqeen
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Collections
+collections:
+  writeups:
+    output: true
+    permalink: /writeups/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "_collections/_writeups"
+      type: "writeups"
+    values:
+      layout: "writeup"
+
+# Excluded files
+exclude:
+  - README.md
+  - .gitignore
+  - .github
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap

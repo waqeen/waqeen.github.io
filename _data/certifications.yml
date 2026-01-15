@@ -1,0 +1,15 @@
+- name: "OffSec Certified Professional"
+  issuer: "OffSec"
+  year: "2025"
+  status: "Active"
+  badge: "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/143663492"
+  url: "https://credentials.offsec.com/e64d358f-1ed1-48fa-996e-774fbd42ae25"
+
+- name: "HackTheBox Certified Defensive Security Analyst"
+  issuer: "HackTheBox"
+  year: "2025"
+  status: "Active"
+  badge: "https://images.credly.com/size/680x680/images/e78adea1-f60b-4991-b5d5-3427140c7c1d/image.png"
+  url: "https://www.credly.com/badges/eabef68d-bbe6-4563-b6c5-21c6cebd8097"
+
+# Добавь сюда остальные сертификаты по аналогии

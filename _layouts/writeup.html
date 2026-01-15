@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article class="writeup">
+    <h1>{{ page.title }}</h1>
+    
+    {% if page.date %}
+    <p class="meta">
+        <time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S' }}">
+            {{ page.date | date: "%B %d, %Y" }}
+        </time>
+    </p>
+    {% endif %}
+    
+    <div class="writeup-content">
+        {{ content }}
+    </div>
+</article>
