@@ -1,8 +1,8 @@
 # Site configuration
-title: Waqeen
-description: Personal website with certifications and writeups
+title: waqeen's site
+description: waqeen cybersecurity 
 url: https://waqeen.github.io
-author: Waqeen
+author: waqeen
 
 # Build settings
 markdown: kramdown
