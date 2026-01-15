@@ -19,22 +19,26 @@ title: Home
         </h1>
         
         <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-            Passionate about and professionally improving my cybersecurity skills in high-level technical areas such as DFIR, Threat Hunting, and Incident Response. I am an active member of the cybersecurity community and have participated in multiple competitions as both a Blue and Red Team.
+            Active member of the cybersecurity community and have participated in multiple competitions as both a Blue and Red Team.
         </p>
     </div>
 
-    <div class="flex flex-col md:flex-row justify-center items-center gap-6 my-12">
+    <div class="flex flex-col md:flex-row justify-center items-stretch gap-4 my-12">
     
-        <div class="bg-white p-4 rounded-xl shadow-md border border-gray-100 hover:shadow-lg transition-all w-full md:w-auto flex justify-center items-center min-h-[150px]">
-            <script src="https://cyberdefenders.org/p/waqeen/badge"></script>
+        <div class="bg-white p-2 rounded-xl shadow-md border border-gray-100 hover:shadow-lg transition-all flex items-center justify-center overflow-hidden">
+            <div class="scale-90 transform origin-center"> <script src="https://cyberdefenders.org/p/waqeen/badge"></script>
+            </div>
         </div>
 
-        <div class="bg-white p-4 rounded-xl shadow-md border border-gray-100 hover:shadow-lg transition-all w-full md:w-auto flex justify-center items-center min-h-[150px]">
+        <div class="bg-white p-2 rounded-xl shadow-md border border-gray-100 hover:shadow-lg transition-all flex items-center justify-center overflow-hidden">
             <iframe 
                 src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=621364" 
                 style="border:none; width: 300px; height: 110px;" 
+                class="block"
                 scrolling="no">
             </iframe>
         </div>
+
     </div>
+    
 </div>
