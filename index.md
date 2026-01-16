@@ -19,24 +19,28 @@ title: Home
         </h1>
         
         <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-            Active member of the cybersecurity community and have participated in multiple competitions as both a Blue and Red Team.
+            Active member of the cybersecurity community and have participated in multiple competitions as both a Blue and Red Team
         </p>
     </div>
 
-    <div class="flex flex-col md:flex-row justify-center items-stretch gap-4 my-12">
-    
-        <div class="bg-white p-2 rounded-xl shadow-md border border-gray-100 hover:shadow-lg transition-all flex items-center justify-center overflow-hidden">
-            <div class="scale-90 transform origin-center"> <script src="https://cyberdefenders.org/p/waqeen/badge"></script>
+    <div class="flex flex-col md:flex-row justify-center items-center gap-4 my-8">
+        <div class="inline-flex items-center justify-center p-1 rounded-lg border border-gray-200 bg-white shadow-sm hover:border-violet-300 transition-colors">
+            <div class="flex items-center justify-center" style="width: 300px; height: 100px; overflow: hidden;">
+                <div class="scale-90 transform">
+                    <script src="https://cyberdefenders.org/p/waqeen/badge"></script>
+                </div>
             </div>
         </div>
 
-        <div class="bg-white p-2 rounded-xl shadow-md border border-gray-100 hover:shadow-lg transition-all flex items-center justify-center overflow-hidden">
-            <iframe 
-                src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=621364" 
-                style="border:none; width: 300px; height: 110px;" 
-                class="block"
-                scrolling="no">
-            </iframe>
+        <div class="inline-flex items-center justify-center p-1 rounded-lg border border-gray-200 bg-white shadow-sm hover:border-violet-300 transition-colors">
+            <div class="flex items-center justify-center" style="width: 300px; height: 100px; overflow: hidden;">
+                <iframe 
+                    src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=621364" 
+                    style="border:none; width: 300px; height: 90px;" 
+                    scrolling="no"
+                    class="block">
+                </iframe>
+            </div>
         </div>
 
     </div>
