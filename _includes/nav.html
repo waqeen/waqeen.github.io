@@ -1,6 +1,40 @@
-<nav>
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/certifications/' | relative_url }}">Certifications</a>
-    <a href="{{ '/writeups/' | relative_url }}">WriteUps</a>
-    <a href="{{ '/connect/' | relative_url }}">Connect</a>
+<nav class="flex flex-wrap justify-center gap-4 md:gap-8 py-6 border-b border-gray-100 mb-10">
+    {% assign nav_items = "Home,/,User|Certifications,/certifications/,Award|WriteUps,/writeups/,BookOpen|Connect,/connect/,Mail" | split: "|" %}
+
+    {% for item in nav_items %}
+        {% assign details = item | split: "," %}
+        {% assign name = details[0] %}
+        {% assign link = details[1] %}
+        {% assign icon = details[2] %}
+        
+        {% comment %} Проверка: является ли текущая страница активной {% endcomment %}
+        {% assign is_active = false %}
+        {% if page.url == link %}
+            {% assign is_active = true %}
+        {% endif %}
+
+        <a href="{{ link | relative_url }}" 
+           class="flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all
+           {% if is_active %} 
+                bg-violet-50 text-violet-700 shadow-sm
+           {% else %} 
+                text-gray-500 hover:text-violet-600 hover:bg-gray-50 
+           {% endif %}">
+            
+            {% comment %} Иконки Lucide (SVG-вставки) {% endcomment %}
+            <span class="w-5 h-5">
+                {% if icon == 'User' %}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                {% elsif icon == 'Award' %}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                {% elsif icon == 'BookOpen' %}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                {% elsif icon == 'Mail' %}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                {% endif %}
+            </span>
+
+            {{ name }}
+        </a>
+    {% endfor %}
 </nav>

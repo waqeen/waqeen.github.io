@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/images/site.webmanifest" />
     <style>
         body { font-family: 'Inter', sans-serif; }
         .animate-fadeIn {
@@ -17,8 +21,8 @@
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-900">
-    <div class="max-w-5xl mx-auto px-4 py-8">
+<body class="bg-gray-50 text-gray-900 selection:bg-violet-100 selection:text-violet-700">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
         <header class="mb-12">
             {% include nav.html %}
         </header>
