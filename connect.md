@@ -44,10 +44,15 @@ permalink: /connect/
             <span class="text-gray-400">→</span>
         </a>
 
-        <a href="0xwaqeen" target="_blank" class="flex items-center justify-between p-4 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-violet-500 hover:shadow-md transition-all group">
+        <a href="https://discord.com/users/324464534309830657" target="_blank" class="flex items-center justify-between p-4 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-violet-500 hover:shadow-md transition-all group">
             <div class="flex items-center gap-3">
-                <div class="p-2 bg-sky-50 text-sky-500 rounded-lg group-hover:bg-sky-500 group-hover:text-white transition-colors">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"></path><path d="M22 2 11 13"></path></svg>
+                <div class="p-2 bg-indigo-50 text-indigo-500 rounded-lg group-hover:bg-[#5865F2] group-hover:text-white transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18.5 4h-13L4 7.5V18l3.5-3.5H16L19.5 18V7.5L18.5 4Z"></path>
+                        <circle cx="9" cy="11" r="1"></circle>
+                        <circle cx="15" cy="11" r="1"></circle>
+                        <path d="M8 14.5c1.5 1 4.5 1 6 0"></path>
+                    </svg>
                 </div>
                 <span class="font-semibold text-gray-700">Discord</span>
             </div>

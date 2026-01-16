@@ -23,20 +23,19 @@ title: Home
         </p>
     </div>
 
-    <div class="flex flex-col md:flex-row justify-center items-center gap-4 my-8">
-        <div class="inline-flex items-center justify-center p-1 rounded-lg border border-gray-200 bg-white shadow-sm hover:border-violet-300 transition-colors">
-            <div class="flex items-center justify-center" style="width: 300px; height: 100px; overflow: hidden;">
-                <div class="scale-90 transform">
-                    <script src="https://cyberdefenders.org/p/waqeen/badge"></script>
-                </div>
+    <div class="flex flex-col lg:flex-row justify-center items-center gap-8 my-10 w-full">
+        
+        <div class="flex-shrink-0 min-w-[320px] flex justify-center">
+            <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-2 hover:shadow-md transition-shadow">
+                <script src="https://cyberdefenders.org/p/waqeen/badge"></script>
             </div>
         </div>
 
-        <div class="inline-flex items-center justify-center p-1 rounded-lg border border-gray-200 bg-white shadow-sm hover:border-violet-300 transition-colors">
-            <div class="flex items-center justify-center" style="width: 300px; height: 100px; overflow: hidden;">
+        <div class="flex-shrink-0 min-w-[320px] flex justify-center">
+            <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-2 hover:shadow-md transition-shadow">
                 <iframe 
                     src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=621364" 
-                    style="border:none; width: 300px; height: 90px;" 
+                    style="border:none; width: 310px; height: 115px;" 
                     scrolling="no"
                     class="block">
                 </iframe>
