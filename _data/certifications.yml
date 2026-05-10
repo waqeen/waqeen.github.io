@@ -25,3 +25,10 @@
   status: "Active"
   badge: "https://templates.images.credential.net/17260865281027180959275678617697.png"
   url: "https://certs.ine.com/2c59892a-3cb2-4b40-98d0-978451a18fc7#acc.LS5ryJVH"
+
+- name: "Hunt APTs with Yara like a GReAT ninja"
+  issuer: "Kaspersky"
+  year: "2026"
+  status: "Active"
+  badge: "/assets/images/badges/kasper.png"
+  url: ""
