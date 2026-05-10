@@ -44,7 +44,7 @@ title: Home
                 </span> Blue Team Skills
             </h3>
             <div class="flex flex-wrap gap-2">
-                {% assign blue_skills = "SOC Operations,Incident Response,Digital Forensics,Threat Hunting,Log Analysis,SIEM" | split: "," %}
+                {% assign blue_skills = "SOC Operations,Incident Response,Digital Forensics,Threat Hunting,Log Analysis,Cloud Forensics,YARA" | split: "," %}
                 {% for skill in blue_skills %}
                     <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-[11px] font-bold">{{ skill }}</span>
                 {% endfor %}

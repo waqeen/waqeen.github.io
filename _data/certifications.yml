@@ -2,7 +2,7 @@
   issuer: "CyberDefenders"
   year: "2024"
   status: "Active"
-  badge: "https://images.credly.com/size/110x110/images/892ffd98-b098-46f4-8315-89f78d03f950/image.png"
+  badge: "https://images.credly.com/size/340x340/images/f2b29fc4-fd62-4dde-bd7a-24e2e08be12a/blob"
   url: "https://www.credly.com/badges/a228f4ea-3883-4707-ab58-934514b9fbe4/public_url"
 
 - name: "Certified Threat Hunting Professional (eCTHP)"
@@ -18,3 +18,10 @@
   status: "Active"
   badge: "/assets/images/badges/mlsecops.png"
   url: ""  
+
+- name: "Certified Digital Forensics Professional (eCDFP)"
+  issuer: "INE"
+  year: "2026"
+  status: "Active"
+  badge: "https://templates.images.credential.net/17260865281027180959275678617697.png"
+  url: "https://certs.ine.com/2c59892a-3cb2-4b40-98d0-978451a18fc7#acc.LS5ryJVH"
